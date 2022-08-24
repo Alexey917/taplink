@@ -74,3 +74,61 @@ body {
   line-height: 14px;
   color: #666565;
 }
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 30px 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  gap: 10px;
+  margin-bottom: 17px;
+}
+ 
+.button.vk {
+  background: #4c75a3;
+}
+
+.button.tg {
+  background: #0088cc;
+}
+
+.button.yt {
+  background: #ff0000;
+}
+
+.button.git {
+  background: #000000;
+  text-decoration: none;
+}
+
+.button-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color:#ffffff;
+}
+
+.button.resume {
+  background: #d6001c;
+  text-decoration: none;
+}
