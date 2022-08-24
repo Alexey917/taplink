@@ -3,16 +3,15 @@
 }
 
 body {
+  background-color: #f2f2f2;
   padding: 15px;
   font-family: 'Roboto', sans-serif;
-  background-color: #f2f2f2;
 }
 
 .page-wrapper {
   overflow: hidden;
   max-width: 375px;
   margin:auto;
-
   background: #ecf0ee;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -26,10 +25,9 @@ body {
 .header {
   height: 231px;
   padding: 37px 50px  173px;
-
-  color: #ffffff;
   background: linear-gradient(180deg, rgba(5, 21, 30, 0.73) 0%, rgba(56, 65, 70, 0.73) 100%), url(../img/header-bg.jpg) no-repeat center / cover;
   border-radius: 0px 0px 64px 64px;
+  color: #ffffff;
 }
 
 .hello {
@@ -47,50 +45,43 @@ body {
 .user {
   margin-top: -48px;
   padding-bottom: 21px;
-  text-align: center;
-
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  text-align: center;
 }
 
 .user-avatar {
   margin-top: -35px;
-
-  object-fit: cover;
   border-radius: 50%;
+  object-fit: cover;
   border: 4px solid #ffffff;
 }
 
 .user-name {
   margin-top: 6px;
   margin-bottom: 5px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   color: #000000;
 }
 
 .user-decription {
   margin: 0;
-
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-
   color: #666565;
 }
 
 .card {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding: 30px 20px;
-
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 30px 20px;
 }
 
 .buttons {
@@ -108,10 +99,9 @@ body {
   height: 40px;
   flex-shrink: 1;
   width: 100%;
+  border-radius: 5px;
   gap: 10px;
   margin-bottom: 17px;
-
-  border-radius: 5px;
 }
  
 .button.vk {
@@ -135,7 +125,6 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  
   color:#ffffff;
 }
 
